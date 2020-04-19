@@ -1,0 +1,34 @@
+version: 0.2
+applications:
+     -  appName: react-app
+        appRoot: /react-app
+        env:
+            variables: []
+        frontend:
+            phases:
+                build:
+                    commands:
+                        - 'echo no-op'
+            artifacts:
+                files:
+                    - '**/*'
+                baseDirectory: /
+            cache:
+                paths:
+                    - node_modules
+     -  appName: angular-app
+        appRoot: /angular-app
+        env:
+            variables: []
+        frontend:
+            phases:
+                build:
+                    commands:
+                        - 'echo no-op'
+            artifacts:
+                files:
+                    - '**/*'
+                baseDirectory: /
+            cache:
+                paths:
+                    - node_modules
