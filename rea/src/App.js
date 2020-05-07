@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        Monorepo react app.  Root is /rea
+        Monorepo react app.  Root is /rea. Update.
 	  </p>
         <a
           className="App-link"
