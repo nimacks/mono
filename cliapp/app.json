@@ -1,0 +1,17 @@
+{
+  "name": "cliapp",
+  "displayName": "cliapp",
+  "expo": {
+    "name": "cliapp",
+    "slug": "cliapp",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
