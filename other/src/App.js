@@ -11,7 +11,6 @@ function App() {
          monorepo react app.  Root /other
         {process.env.REACT_APP_PHRASE} 
     </p>
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
