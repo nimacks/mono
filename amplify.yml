@@ -38,4 +38,17 @@ applications:
     env:
       variables:
         REACT_APP_PHRASE: "env for rea"
+  test:
+    artifacts:
+      baseDirectory: cypress
+      files:
+        - '**/*.mp4'
+        - '**/*.png'
+    phases:
+      preTest:
+        commands:
+          - npm install
+      test:
+        commands:
+          - npx cypress run
 
