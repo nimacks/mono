@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         This is monorepo react app.  Root /other
+         This is the monorepo react app.  Root /other
         {process.env.REACT_APP_PHRASE} 
     </p>
         <a
